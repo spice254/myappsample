@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'stockmgmt',
 ]
 
 MIDDLEWARE = [
@@ -67,7 +68,6 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'crm.wsgi.application'
 WSGI_APPLICATION = 'crm.wsgi.application'
 
 
